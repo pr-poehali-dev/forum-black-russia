@@ -6,7 +6,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -61,6 +61,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				forum: {
+					bg: 'hsl(var(--forum-bg))',
+					card: 'hsl(var(--forum-card))',
+					accent: 'hsl(var(--forum-accent))',
+					text: 'hsl(var(--forum-text))',
+					'secondary-text': 'hsl(var(--forum-secondary-text))',
+					border: 'hsl(var(--forum-border))',
+					highlight: 'hsl(var(--forum-highlight))'
 				}
 			},
 			borderRadius: {
